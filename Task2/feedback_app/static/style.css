@@ -1,0 +1,21 @@
+body { font-family: Arial, sans-serif; background: #f4f7f6; text-align: center; padding: 30px;}
+.container { max-width: 900px; margin:auto; background:white; padding:25px; border-radius:12px; box-shadow:0 0 15px rgba(0,0,0,0.1);}
+h1 { color:#004080; margin-bottom: 20px; }
+input, textarea { width:100%; padding:10px; border-radius:6px; border:1px solid #ccc; margin-bottom:15px;}
+button { padding:10px 20px; background:#007bff; color:white; border:none; border-radius:6px; cursor:pointer;}
+button:hover { background:#0056b3; }
+.btn { padding:6px 12px; background:#007bff; color:white; border-radius:6px; text-decoration:none; margin:2px;}
+.btn:hover { background:#0056b3; }
+.btn.edit { background:#28a745; }
+.btn.edit:hover { background:#1e7e34; }
+.btn.delete { background:#dc3545; }
+.btn.delete:hover { background:#a71d2a; }
+
+.feedback-list { margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+.feedback-card { background:#f0f8ff; padding:15px; border-radius:10px; width:250px; text-align:left; box-shadow:0 0 5px rgba(0,0,0,0.1); }
+.summary-cards { display:flex; justify-content:space-around; margin-bottom:30px; flex-wrap: wrap; gap: 10px;}
+.card { background:#e0f7fa; padding:20px; border-radius:10px; flex:1 1 200px; text-align:center; box-shadow:0 0 5px rgba(0,0,0,0.1);}
+.card h3 { margin-bottom:10px; color:#004080;}
+.sentiment.positive { color: green; font-weight: bold; }
+.sentiment.negative { color: red; font-weight: bold; }
+.sentiment.neutral { color: orange; font-weight: bold; }

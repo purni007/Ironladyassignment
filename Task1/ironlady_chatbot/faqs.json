@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What programs does Iron Lady offer?",
+    "answer": "Iron Lady offers leadership development programs focusing on personal growth, professional skills, and confidence building.",
+    "keywords": ["programs", "courses", "leadership programs", "offerings"]
+  },
+  {
+    "question": "What is the program duration?",
+    "answer": "The program typically runs for 6 months.",
+    "keywords": ["duration", "length", "how long", "period"]
+  },
+  {
+    "question": "Is the program online or offline?",
+    "answer": "The program is delivered online for convenience.",
+    "keywords": ["online", "offline", "mode", "virtual", "in-person"]
+  },
+  {
+    "question": "Are certificates provided?",
+    "answer": "Yes, participants receive a certification after successful completion.",
+    "keywords": ["certificate", "certification", "completion", "awarded"]
+  },
+  {
+    "question": "Who are the mentors/coaches?",
+    "answer": "The program is guided by industry experts, experienced leadership coaches, and successful entrepreneurs.",
+    "keywords": ["mentors", "coaches", "teachers", "trainers", "guides"]
+  },
+  {
+    "question": "How to apply?",
+    "answer": "To apply, visit the Iron Lady website, fill out the application form, and submit it along with the required documents.",
+    "keywords": ["apply", "application", "register", "join", "enroll"]
+  }
+]

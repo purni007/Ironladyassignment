@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Student Feedback</h1>
+    <form method="post">
+        <label>Name:</label><br>
+        <input type="text" name="name" placeholder="Your Name" value="{{ edit_feedback.name if edit_feedback }}" required><br><br>
+        <label>Feedback:</label><br>
+        <textarea name="feedback" rows="5" placeholder="Write your feedback..." required>{{ edit_feedback.feedback if edit_feedback }}</textarea><br><br>
+        <button type="submit">{{ 'Update' if edit_feedback else 'Submit' }}</button>
+    </form>
+    <br>
+    <a class="btn" href="{{ url_for('admin') }}">View All Feedbacks & Summary</a>
+</div>
+</body>
+</html>
